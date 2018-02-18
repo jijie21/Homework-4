@@ -45,10 +45,10 @@ function setup() {
 
 function draw() {
   if (playing) {
-    background(0, 255, 255);
+    background(102, 178, 255);
     }
   else {
-    background(255, 0, 255);
+    background(255, 102, 178);
   }
   fill(0);
   text('click here,\nthen press A/S/D/F\n keys to play', width/2, 10)
@@ -105,4 +105,8 @@ function keyReleased() {
     osc.amp(0, 0.5);
     playing = false;
   }
+}
+
+function mousePressed(){
+
 }
