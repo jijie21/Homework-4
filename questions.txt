@@ -1,0 +1,36 @@
+1. What is an object?
+Container of variables. An object has data inside of it.
+Example of Js object notation :var circle = {
+x:0, y:100,diameter:50}
+
+2. How do you access a property of an object?
+
+Ex) circle.x,circle.y —> object.property
+
+3. What is the index of the first item in an array?
+
+Counting from 0.
+[50,70,12,-22]; —> [Index 0, Index 1, Index 3, Index 4]
+
+4. What syntax can you use to get the third item in an array?
+
+nums [2]
+
+
+other notes:
+var words = ["5", "3","7","8"]
+
+var index = 0
+
+index = index +1;
+if (index ==4){ 
+index =0}  //set index back to 0
+
+1. How do you use a variable nad a loop to get every item in an array?
+Using array.
+Ex) 
+var nums = [5,27,3,49];
+for (var n = 0; n<4;n++){
+ellipse (100*n+100,200,nums[n], nums[n]);
+}
+
