@@ -8,12 +8,10 @@ var oscA, oscS, oscD, oscF;
 var playing = false;
 
 var nums = [30, 45, 50, 70];
-var nums = false;
 
 function setup() {
   createCanvas(500, 350);
   backgroundColor = color(0);
-  textAlign(CENTER);
 
   oscA = new p5.Oscillator();
   oscA.setType('triangle');
