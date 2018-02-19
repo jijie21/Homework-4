@@ -1,4 +1,4 @@
-var freqA = 174;
+var freqA = 175;
 var freqS = 196;
 var freqD = 220;
 var freqF = 246;
@@ -44,7 +44,7 @@ function draw() {
     background(0, 255, 255);
     fill(box+20,box-50,box+40);
     noStroke();
-    arc(width/2, height/2, 80, 80, 0, PI + box, PIE);
+    arc(width/2, height/2, 100, 100, 0, PI + box, PIE);
   } 
   
   else {
