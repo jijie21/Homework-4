@@ -41,11 +41,9 @@ function setup() {
 function draw() {
   background(0);
   if (playing) {
-    for (var n = 0; n < 4; n++) {
       stroke(255);
       fill(205, 80, 107);
       ellipse(n * 100 + 100, 200, nums[n], nums[n]);
-    }
   }
 }
 
